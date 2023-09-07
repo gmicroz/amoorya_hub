@@ -1,0 +1,20 @@
+[1] تثبيت برنامج Git 
+https://git-scm.com/
+
+[2] نسخ كامل المستودع على جهاز
+- اذهب لمجلد التثبيت او سطح المكتب
+- بالزر اليمين اختر git bash
+- استخدم الأمر
+git clone
+
+ex :
+git clone https://github.com/gmicroz/amoorya_hub.git
+
+[3] لتحدث المستجدات في المستودع 
+- ادخل للمجلد الرئيسي للمشروع
+- بالزر اليمين اختر git bash
+- استخدام الأمر
+git pull
+
+ex:
+git pull origin main
