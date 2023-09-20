@@ -12,11 +12,13 @@ class Student:
         ...
     
      
+std1 = Student(name="Salem", age=16, stage="3rd high school", mark=7)
+std2 = Student(name="Saeed", age=16, stage="3rd high school", mark=10)
+std3 = Student(name="Faisal", age=17, stage="3rd high school", mark=4)
 
-
-std1 = Student(name="Salem", age=16, stage="3rd high school", mark=9)
-
-print(std1.name, std1.mark, std1.stage)
+print(f"student name is {std1.name}, he is {std1.age} years old at {std1.stage} stage, got {std1.mark}/10")
+print(f"student name is {std2.name}, he is {std2.age} years old at {std2.stage} stage, got {std2.mark}/10")
+print(f"student name is {std3.name}, he is {std3.age} years old at {std3.stage} stage, got {std3.mark}/10")
 
 
 # استدعاء داله send mark ?? واجب
