@@ -10,7 +10,6 @@ class Student:
         # اطبع اسم الطالب ودرجته عن استدعاء هذه الدالة من الكائن
         ...
         ...
-    
      
 std1 = Student(name="Salem", age=16, stage="3rd high school", mark=7)
 std2 = Student(name="Saeed", age=16, stage="3rd high school", mark=10)
@@ -20,5 +19,19 @@ print(f"student name is {std1.name}, he is {std1.age} years old at {std1.stage} 
 print(f"student name is {std2.name}, he is {std2.age} years old at {std2.stage} stage, got {std2.mark}/10")
 print(f"student name is {std3.name}, he is {std3.age} years old at {std3.stage} stage, got {std3.mark}/10")
 
-
 # استدعاء داله send mark ?? واجب
+
+
+# امكانية اضافة الكائن الى مكدس
+# my_students = []
+# my_students.append(std1)
+# my_students.append(std2)
+# my_students.append(std3)
+
+# طباعة الكائن داخل المكدس
+# for student in my_students:
+#     print(student.name)
+#     print(student.age)
+
+
+
