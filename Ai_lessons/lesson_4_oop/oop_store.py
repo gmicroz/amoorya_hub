@@ -5,10 +5,13 @@ class Store:
         self.price = price
     
     def sell(self, quantity):
-        ...
+        self.count -= quantity
+        print("Current Storage : ", self.count)
 
 
 
 iphone = Store("iphone", 15, 3500)
 
-iphone.sell(2) # نريد تنفيذ البيع وخصم الكمية 
+
+iphone.sell(5) # نريد تنفيذ البيع وخصم الكمية 
+
